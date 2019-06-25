@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	class Pagamento extends CI_Controller{
 		public function index(){
 			$pedido = preg_replace('/[^[:alnum:]-]/','', $_POST['idPedido']);
-			$data['email'] = "natamdanilo@live.com";
+			$data['email'] = "seu email";
 			$data['token'] = "seu token";
 			$data['currency'] ="BRL";
 			$data['reference'] = $pedido;
