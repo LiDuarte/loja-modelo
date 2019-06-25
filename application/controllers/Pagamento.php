@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		public function index(){
 			$pedido = preg_replace('/[^[:alnum:]-]/','', $_POST['idPedido']);
 			$data['email'] = "natamdanilo@live.com";
-			$data['token'] = "F34B1067562B476FA849CA245F2D0773";
+			$data['token'] = "seu token";
 			$data['currency'] ="BRL";
 			$data['reference'] = $pedido;
 			
